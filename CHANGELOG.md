@@ -4,6 +4,7 @@
 
 ### Features
 - Added a marker feature (#1035)
+- Added a track feature (#1040)
 
 ## Version 0.19.8
 
