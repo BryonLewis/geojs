@@ -4,6 +4,7 @@
 
 ### Features
 - Added a marker feature (#1035)
+- Added a geo.gui.scaleWidget.formatUnit utility function (#1048)
 
 ## Version 0.19.8
 
