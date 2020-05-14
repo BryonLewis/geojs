@@ -74,6 +74,8 @@ after_failure:
 
 after_success:
   - npm run codecov
+  # REMOVE THIS
+  - tar -zhcvf dist/built/fonts.conf.d.tgz /etc/fonts/conf.d/*
   # Upload build artifacts
   - pip install --user --upgrade girder-client requests[security] pyOpenSSL six
   - find dist/built -type f -exec python scripts/upload_travis_results.py {} \+
